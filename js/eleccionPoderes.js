@@ -36,7 +36,7 @@ function chageSkill(signo)
 			document.getElementById("imgChange").src=spriteRegen;
 			document.getElementById("lblChang1").innerHTML=nomRegen;
 			document.getElementById("lblChang2").innerHTML=efecRegen;
-			document.getElementById("lblChang3").innerHTML="30% de maná";
+			document.getElementById("lblChang3").innerHTML="30% de man&aacute;";
 			document.getElementById("lblChang4").innerHTML=costoRegen;
 			document.getElementById("lblChang5").innerHTML=turReqRegen
 			document.getElementById("lbldano12").innerHTML="Adicional :";
