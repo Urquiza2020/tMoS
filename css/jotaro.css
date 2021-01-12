@@ -1,0 +1,123 @@
+#imgjotaro
+{
+	position:absolute;
+	z-index:3;
+	margin-top:53%;
+	margin-left:-80%;
+	float:left;
+	transition: all 0.2s;
+	cursor:pointer;
+}
+
+#imgAtk1A
+{
+	position:absolute;
+	z-index:5;
+	margin-top:50%;
+	margin-left:-79%;
+	float:left;
+	width:200px; 
+	height:200px;
+	visibility:hidden;
+}
+#imgAtk1b
+{
+	position:absolute;
+	z-index:6;
+	margin-top:54%;
+	margin-left:-65%;
+	float:left;
+	width:180px; 
+	height:142px;
+	visibility:hidden;
+	transition: all 0.08s;
+}
+#imgAttack
+{
+	position:absolute;
+	z-index:5;
+	margin-top:58%;
+	margin-left:-77%;
+	float:left;
+	visibility: hidden;
+	
+}
+
+#imgAttack2
+{
+	position:absolute;
+	z-index:5;
+	margin-top:52%;
+	margin-left:-88%;
+	float:left;
+	width:193px; 
+	height:171px;
+	visibility: hidden;
+}
+
+#imgAttack3
+{
+	position:absolute;
+	z-index:5;
+	margin-top:54%;
+	margin-left:-87%;
+	float:left;
+	width:184px; 
+	height:175px;
+	visibility: hidden;
+}
+#imgAttack4a
+{
+	position:absolute;
+	z-index:5;
+	margin-top:54%;
+	margin-left:-83%;
+	float:left;
+	width:133px; 
+	height:147px;
+	visibility: hidden;
+}
+#imgAttack4B
+{
+	position:absolute;
+	z-index:2;
+	margin-top:55%;
+	margin-left:-86%;
+	float:left;
+	width:104px; 
+	height:136px;
+	visibility: hidden;
+}
+#imgAttack5
+{
+	position:absolute;
+	z-index:5;
+	margin-top:53%;
+	margin-left:-86%;
+	float:left;
+	width:174px; 
+	height:175px;
+	visibility: hidden;
+}
+#imgAttack6
+{
+	position:absolute;
+	z-index:4;
+	margin-top:60%;
+	margin-left:-75%;
+	float:left;
+	width:48px; 
+	height:60px;
+	visibility: hidden;
+}
+#imgAttack6A
+{   position:absolute;
+	z-index:4;
+	margin-top:52%;
+	margin-left:-85%;
+	float:left;
+	width:158px; 
+	height:173px;
+	visibility: hidden;
+	transition: all 0.2s;
+}

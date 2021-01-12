@@ -1,0 +1,30 @@
+#numero1
+{
+	position:absolute;
+	margin-top:-6%;
+	margin-left:45.4%;
+	z-index:4;
+	font-size: 45px;
+	color:#330109;
+	cursor:pointer;
+}
+#numero2
+{
+	position:absolute;
+	margin-top:-6%;
+	margin-left:51.6%;
+	z-index:4;
+	font-size: 45px;
+	color:#330109;
+	cursor:pointer;
+}
+#numero3
+{
+	position:absolute;
+	margin-top:-6%;
+	margin-left:57.7%;
+	z-index:4;
+	font-size: 45px;
+	color:#330109;
+	cursor:pointer;
+}
