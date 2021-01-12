@@ -1,0 +1,235 @@
+#vidapj
+{
+	position:absolute;
+	z-index:2;
+	margin-top:0.1%;
+	margin-left:0.5%;
+	float:left;
+
+}
+#vidaNpc
+{
+	position:absolute;
+	z-index:2;
+	margin-top:0.1%;
+	margin-left:83%;
+	float:left;
+
+}
+#arribajota
+{
+	position:absolute;
+	z-index:2;
+	margin-top:-30%;
+	margin-left:21%;
+	float:left;
+	color:#b8042e;
+	font-size: 40px;
+	visibility: hidden;
+}
+#arribaNPC
+{
+	position:absolute;
+	z-index:2;
+	margin-top:-30%;
+	margin-left:71%;
+	float:left;
+	color:#b8042e;
+	font-size: 40px;
+	visibility: hidden;
+}
+#arribajotatk
+{
+	position:absolute;
+	z-index:2;
+	margin-top:-30%;
+	margin-left:19%;
+	float:left;
+	color:#b8042e;
+	font-size: 35px;
+	visibility: hidden;
+}
+#arribaLeonAtk
+{
+	position:absolute;
+	z-index:2;
+	margin-top:-30%;
+	margin-left:69%;
+	float:left;
+	color:#b8042e;
+	font-size: 35px;
+	visibility: hidden;
+}
+body
+{
+	background-color:#72e0ce; 
+	
+}
+
+
+#manapj
+{
+	position:absolute;
+	z-index:2;
+	margin-top:5%;
+	margin-left:0.5%;
+	float:left;
+
+}
+
+.btnAtk
+{
+	width:45px; 
+	height:45px;
+	font-size: 30px;
+	color:transparent;
+	cursor:pointer;
+	background-color: transparent;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #000000;
+	z-index:3;
+	position:relative;
+	
+}
+
+
+
+
+.spritebtn
+{
+	position:absolute;
+	z-index:2;
+	width:45px; 
+	height:45px;
+	cursor:pointer;
+	
+}
+.spritebtnDesc
+{
+	position:absolute;
+	z-index:2;
+	width:45px; 
+	height:45px;
+	margin-left:45%;
+	
+}
+.spritePersDesc
+{
+	
+	z-index:2;
+	width:45px; 
+	height:45px;
+	
+	
+}
+.poderesChoice
+{
+	position:absolute;
+	width:45px; 
+	height:45px;
+	z-index:2;
+	margin-top:10%;
+	margin-left:-35%
+	
+	
+	
+}
+.labelChoice
+{
+	margin-top:12%;
+	font-size:30px;
+	margin-left:-10%;
+	position:absolute;
+}
+.botonChoice
+{
+	position:absolute;
+	z-index:2;
+	width:35px; 
+	height:35px;
+	margin-top:12%;
+	margin-left:30%;
+	
+	
+	color: #0099CC;
+	background: transparent;
+	border: 2px solid #0099CC;
+	border-radius: 6px;
+	border: none;
+      color: white;
+      text-align: center;
+      display: inline-block;
+      font-size: 16px;
+      
+     /*-webkit-transition-duration: 0.4s;  Safari */
+     /* transition-duration: 0.4s;*/
+      cursor: pointer;
+      text-decoration: none;
+      text-transform: uppercase;
+	  background-color: white; 
+      color: black; 
+      border: 2px solid #008CBA;
+	
+}
+.botonChoice:hover {
+      background-color: #008CBA;
+      color: white;
+ }
+.spritebtnPers
+{
+	
+	z-index:2;
+	
+	
+	
+}
+.fontlabel
+{
+	font-size:25px;
+}
+#imgCentauro
+{
+	position:absolute;
+	z-index:4;
+	margin-top:0%;
+	margin-left:0%;
+	float:left;
+
+}
+#msjBienVenida
+{
+	font-size:30px;
+	
+}
+#txtNombre
+{
+   background:white;
+   border: 2px solid #0099CC;
+   border-radius: 2px 2px 2px 2px;
+  
+   font-size: 20px;
+   width:150px;
+}
+.fontlabel2
+{
+	position:absolute;
+	font-size:35px;
+	margin-top:1%;
+	margin-left:-5%;
+}
+.elcosito
+{
+	z-index:6;
+  border-style:solid;
+	border-width:5px;
+	width:100%;
+	height:100%;
+  background:rgba(0,0,0,0.8);
+	border: 2px solid #0099CC;
+	border-radius: 10px;
+	left:0%;
+	top:0%;
+	visibility:hidden;
+	position:fixed;
+}
