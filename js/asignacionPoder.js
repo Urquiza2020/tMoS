@@ -6,16 +6,16 @@ var MaxatkPlacaje=MaxAtaque1PJ+5;
 var nomPlacaje="Placaje";
 var efecPlacaje="Una serie de ataques elemento viento";   
 var manaPlacaje=5;
-var costoPlacaje=manaPlacaje+" Man·";
+var costoPlacaje=manaPlacaje+" Man\341";
 var turReqPlacaje=2;
 
-///Regen Man·//////////////
+///Regen Man√°//////////////
  
 var spriteRegen="sprites/iconoMana.png";  
 var MinatkRegen=parseInt((30*manaTotal)/100); //recupera el 30% de la cantidad maxima
 var MaxatkRegen=0;
-var nomRegen="Man· Plus";
-var efecRegen="Regenera una parte del man·";
+var nomRegen="Man√° Plus";
+var efecRegen="Regenera una parte del Man\341";
 var manaRegen=0;  
 var costoRegen=0;
 var turReqRegen=2;
@@ -27,7 +27,7 @@ var MaxatkBsouls=MaxAtaque1PJ+10;
 var nomBsouls="BeSouls";
 var efecBsouls="Ataca al enemigo con la energia de mil almas en pena";
 var manaBeSouls=15;  
-var costoBsouls=manaBeSouls+" Man·";
+var costoBsouls=manaBeSouls+" Man\341";
 var turBsouls=3;
 
 ////Blood Shot/////////////////                     
@@ -38,7 +38,7 @@ var MaxatkBloodS=cantHPPj/2;
 var nomBloodS="Blood Shot";
 var efecBloodS="Intercambia la mitad de tu vida por un ataque divino";
 var manaBloodS=30;
-var costoBloodS=manaBloodS+" Man·";
+var costoBloodS=manaBloodS+" Man\341";
 var turBloodS=4;
 
 ////Heart Light//////////   
@@ -49,7 +49,7 @@ var MaxatkheartL=2;
 var nomheartL="Heart Light";
 var efecheartL="Luz cegadora que deja fuera de combate al enemigo por 2 turnos";
 var manaheartL=25;
-var costoheartL=manaheartL+" Man·";
+var costoheartL=manaheartL+" Man\341";
 var turheartL=4;
 
 ////Magic Shield ///////////////////              poder2(MinatkShieldM,MaxatkShieldM,manaShieldM,costoShieldM,turShieldM,nomShieldM,spriteShieldM,efecShieldM,6);
@@ -58,9 +58,9 @@ var spriteShieldM="sprites/MagicShield.png";
 var MinatkShieldM=0;
 var MaxatkShieldM=2;  //aca los turnos que dura el escudo
 var nomShieldM="MagShield";
-var efecShieldM="Escudo que anula el ataque enemigo a cambio de man· por 2 turnos";
+var efecShieldM="Escudo que anula el ataque enemigo a cambio de man\341 por 2 turnos";
 var manaShieldM=30;   //0 porque el gasto va a ser el ataque enemigo
-var costoShieldM=manaShieldM+" Man·";
+var costoShieldM=manaShieldM+" Man\341";
 var turShieldM=5;
 
 function poder2(minatk,maxatk,manaatk,costatk,tur,nom,sprite,efect,atack)
