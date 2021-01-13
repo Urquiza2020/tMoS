@@ -1,6 +1,6 @@
 var signoMas=1;
 var choiceSkill1=0; // placaje
-var choiceSkill2=0; // Man· Plus
+var choiceSkill2=0; // Man√° Plus
 var choiceSkill3=0; // BeSouls
 var choiceSkill4=0; // Blood Shot
 var choiceSkill5=0; // heart light  
@@ -19,7 +19,7 @@ function chageSkill(signo)
 		document.getElementById("lblChang3").innerHTML="(MinAtk+5) - (MaxAtk+5)";
 		document.getElementById("lblChang4").innerHTML=costoPlacaje;
 		document.getElementById("lblChang5").innerHTML=turReqPlacaje;
-		document.getElementById("lbldano12").innerHTML="DaÒo :";
+		document.getElementById("lbldano12").innerHTML=utf8_encode("Da√±o :");
 		if(choiceSkill1 == 0)
 		{
 			document.getElementById("btnSelectkill").innerHTML="+";
@@ -36,7 +36,7 @@ function chageSkill(signo)
 			document.getElementById("imgChange").src=spriteRegen;
 			document.getElementById("lblChang1").innerHTML=nomRegen;
 			document.getElementById("lblChang2").innerHTML=efecRegen;
-			document.getElementById("lblChang3").innerHTML="30% de man·";
+			document.getElementById("lblChang3").innerHTML="30% de man√°";
 			document.getElementById("lblChang4").innerHTML=costoRegen;
 			document.getElementById("lblChang5").innerHTML=turReqRegen
 			document.getElementById("lbldano12").innerHTML="Adicional :";
@@ -59,7 +59,7 @@ function chageSkill(signo)
 					document.getElementById("lblChang3").innerHTML="(MinAtk+10)-(MaxAtk+10)";
 					document.getElementById("lblChang4").innerHTML=manaBeSouls;
 					document.getElementById("lblChang5").innerHTML=turBsouls;
-					document.getElementById("lbldano12").innerHTML="DaÒo :";
+					document.getElementById("lbldano12").innerHTML="Da√±o :";
 					
 					if(choiceSkill3 == 0)
 					{
@@ -79,7 +79,7 @@ function chageSkill(signo)
 					document.getElementById("lblChang3").innerHTML="Vida jugador/2";
 					document.getElementById("lblChang4").innerHTML=costoBloodS;
 					document.getElementById("lblChang5").innerHTML=turBloodS;
-					document.getElementById("lbldano12").innerHTML="DaÒo :";
+					document.getElementById("lbldano12").innerHTML="Da√±o :";
 					if(choiceSkill4 == 0)
 					{
 						document.getElementById("btnSelectkill").innerHTML="+";
@@ -98,7 +98,7 @@ function chageSkill(signo)
 					document.getElementById("lblChang3").innerHTML="Inmoviliza 2 turnos al contrario";
 					document.getElementById("lblChang4").innerHTML=costoheartL;
 					document.getElementById("lblChang5").innerHTML=turheartL;
-					document.getElementById("lbldano12").innerHTML="DaÒo :";
+					document.getElementById("lbldano12").innerHTML="Da√±o :";
 					if(choiceSkill5 == 0)
 					{
 						document.getElementById("btnSelectkill").innerHTML="+";
@@ -114,7 +114,7 @@ function chageSkill(signo)
 					document.getElementById("imgChange").src=spriteShieldM;
 					document.getElementById("lblChang1").innerHTML=nomShieldM;
 					document.getElementById("lblChang2").innerHTML=efecShieldM;
-					document.getElementById("lblChang3").innerHTML="si tiene man· igual o mayor al daÒo";
+					document.getElementById("lblChang3").innerHTML="si tiene man√° igual o mayor al da√±o";
 					document.getElementById("lblChang4").innerHTML=costoShieldM;
 					document.getElementById("lblChang5").innerHTML=turShieldM;
 					document.getElementById("lbldano12").innerHTML="Condicion :";
@@ -178,7 +178,7 @@ function agregarPoder()
 				document.getElementById("lblCantPod").innerHTML=contador+"/3";
 			}
 			else
-				if(signoBoton == "-" && signoMas==2)  //Man· Plus
+				if(signoBoton == "-" && signoMas==2)  //Man√° Plus
 				{
 					document.getElementById("btnSelectkill").innerHTML="+";
 					choiceSkill2=0;
