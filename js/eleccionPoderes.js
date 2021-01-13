@@ -19,7 +19,7 @@ function chageSkill(signo)
 		document.getElementById("lblChang3").innerHTML="(MinAtk+5) - (MaxAtk+5)";
 		document.getElementById("lblChang4").innerHTML=costoPlacaje;
 		document.getElementById("lblChang5").innerHTML=turReqPlacaje;
-		document.getElementById("lbldano12").innerHTML="Da&ntilde;o :";
+		document.getElementById("lbldano12").innerHTML="Da\361o :";
 		if(choiceSkill1 == 0)
 		{
 			document.getElementById("btnSelectkill").innerHTML="+";
