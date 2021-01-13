@@ -59,7 +59,7 @@ function chageSkill(signo)
 					document.getElementById("lblChang3").innerHTML="(MinAtk+10)-(MaxAtk+10)";
 					document.getElementById("lblChang4").innerHTML=manaBeSouls;
 					document.getElementById("lblChang5").innerHTML=turBsouls;
-					document.getElementById("lbldano12").innerHTML="Daño :";
+					document.getElementById("lbldano12").innerHTML="Da\361o :";
 					
 					if(choiceSkill3 == 0)
 					{
@@ -79,7 +79,7 @@ function chageSkill(signo)
 					document.getElementById("lblChang3").innerHTML="Vida jugador/2";
 					document.getElementById("lblChang4").innerHTML=costoBloodS;
 					document.getElementById("lblChang5").innerHTML=turBloodS;
-					document.getElementById("lbldano12").innerHTML="Daño :";
+					document.getElementById("lbldano12").innerHTML="Da\361o :";
 					if(choiceSkill4 == 0)
 					{
 						document.getElementById("btnSelectkill").innerHTML="+";
