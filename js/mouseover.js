@@ -1,6 +1,6 @@
 function desPlacaje()
 {
-						document.getElementById("Eldano").innerHTML="Daño :";  // para cambiar la etiqueta de daño
+						document.getElementById("Eldano").innerHTML="Da\361o :";  // para cambiar la etiqueta de daÃ±o
 					
 						document.getElementById("SpritebtnDesc").src=spritePlacaje;
 						document.getElementById("lblDesc").innerHTML=nomPlacaje;
@@ -11,7 +11,7 @@ function desPlacaje()
 }
 function desBeSouls()
 {
-						document.getElementById("Eldano").innerHTML="Daño :";  // para cambiar la etiqueta de daño
+						document.getElementById("Eldano").innerHTML="Da\361o :";  // para cambiar la etiqueta de daÃ±o
 					
 						document.getElementById("SpritebtnDesc").src=spriteBsouls;
 						document.getElementById("lblDesc").innerHTML=nomBsouls;
@@ -23,18 +23,18 @@ function desBeSouls()
 }
 function desManaPlus()
 {
-						document.getElementById("Eldano").innerHTML="Adicional :";  // para cambiar la etiqueta de daño
+						document.getElementById("Eldano").innerHTML="Adicional :";  // para cambiar la etiqueta de daÃ±o
 						
 						document.getElementById("SpritebtnDesc").src=spriteRegen;
 						document.getElementById("lblDesc").innerHTML=nomRegen;
 						document.getElementById("lblDesc2").innerHTML=efecRegen;;
-						document.getElementById("lblDesc3").innerHTML="30% de maná";
+						document.getElementById("lblDesc3").innerHTML="30% de manÃ¡";
 						document.getElementById("lblDesc4").innerHTML=costoRegen;
 						document.getElementById("lblDesc5").innerHTML=turReqRegen;
 }
 function desBloodShot()
 {
-						document.getElementById("Eldano").innerHTML="Daño :";  // para cambiar la etiqueta de daño
+						document.getElementById("Eldano").innerHTML="Da\361o :";  // para cambiar la etiqueta de daÃ±o
 					
 						document.getElementById("SpritebtnDesc").src=spriteBloodS;
 						document.getElementById("lblDesc").innerHTML=nomBloodS;
@@ -45,7 +45,7 @@ function desBloodShot()
 }
 function deHeartL()
 {
-					document.getElementById("Eldano").innerHTML="Daño :";  // para cambiar la etiqueta de daño
+					document.getElementById("Eldano").innerHTML="Da\361o :";  // para cambiar la etiqueta de daÃ±o
 					
 					document.getElementById("SpritebtnDesc").src=spriteheartL;
 					document.getElementById("lblDesc").innerHTML=nomheartL;
@@ -56,12 +56,12 @@ function deHeartL()
 }
 function deMagShield()
 {
-					document.getElementById("Eldano").innerHTML="Condicion :";  // para cambiar la etiqueta de daño
+					document.getElementById("Eldano").innerHTML="Condicion :";  // para cambiar la etiqueta de daÃ±o
 					
 					document.getElementById("SpritebtnDesc").src=spriteShieldM;
 					document.getElementById("lblDesc").innerHTML=nomShieldM;
 					document.getElementById("lblDesc2").innerHTML=efecShieldM;
-					document.getElementById("lblDesc3").innerHTML="si tiene maná igual o mayor al daño";
+					document.getElementById("lblDesc3").innerHTML="si tiene manÃ¡ igual o mayor al daÃ±o";
 					document.getElementById("lblDesc4").innerHTML=costoShieldM;
 					document.getElementById("lblDesc5").innerHTML=turShieldM;
 }
@@ -69,7 +69,7 @@ function deMagShield()
 var algo=document.getElementById("bntAtaque");  //cuando se pasa el puntero por arriba ataque 1 , no se sale   ///////////////////////////////////////////////////////////////
 					algo.onmouseover=function()
 					{
-						document.getElementById("Eldano").innerHTML="Daño :"; // para cambiar la etiqueta de daño
+						document.getElementById("Eldano").innerHTML="Da\361o :"; // para cambiar la etiqueta de daÃ±o
 					
 						document.getElementById("SpritebtnDesc").src="sprites/btnAtk1.png";
 						document.getElementById("lblDesc").innerHTML="Ataque Simple";
