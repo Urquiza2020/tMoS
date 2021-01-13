@@ -65,7 +65,19 @@ body
 	background-color:#72e0ce; 
 	
 }
-
+#fpay
+{
+	position:absolute;
+}
+#imgInsta
+{
+	position:absolute;
+	float:right;
+	width:50px; 
+	height:50px;
+	cursor:pointer;
+	
+}
 
 #manapj
 {
