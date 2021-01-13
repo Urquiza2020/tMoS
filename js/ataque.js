@@ -32,7 +32,7 @@ function ataque(atk)
 					document.getElementById("imgAttack").style.visibility="visible"; //Mostrar efecto ataque  
 					ataque1PJ=nose(MinAtaque1PJ,MaxAtaque1PJ);
 					
-					cantHPN=cantHPN-ataque1PJ; //variable de daÒo hecho
+					cantHPN=cantHPN-ataque1PJ; //variable de da√±o hecho
 					danoPJ=ataque1PJ;
 					
 					
@@ -56,7 +56,7 @@ function ataque(atk)
 						contTurAtk2=turReqAtk2; //le asigna la cuenta 
 						cantHPN=cantHPN-ataque2PJ;
 						danoPJ=ataque2PJ;
-						mana=mana-ManaAtk2;   //restar man·
+						mana=mana-ManaAtk2;   //restar man√°
 						restoBarra=ManaAtk2;
 					}
 					if(attack4 ==1) //pregunta si el placaje esta en el boton 4
@@ -65,7 +65,7 @@ function ataque(atk)
 						ataque4PJ=nose(MinAtaque4PJ,MaxAtaque4PJ);
 						cantHPN=cantHPN-ataque4PJ;
 						danoPJ=ataque4PJ;
-						mana=mana-ManaAtk4;   //restar man·
+						mana=mana-ManaAtk4;   //restar man√°
 						restoBarra=ManaAtk4; 
 					}
 					if(attack3 ==1) //pregunta si el placaje esta en el boton 3
@@ -74,18 +74,18 @@ function ataque(atk)
 						ataque3PJ=nose(MinAtaque3PJ,MaxAtaque3PJ);
 						cantHPN=cantHPN-ataque3PJ;
 						danoPJ=ataque3PJ;
-						mana=mana-ManaAtk3;   //restar man·
+						mana=mana-ManaAtk3;   //restar man√°
 						restoBarra=ManaAtk3;
 					}
 										
-					//mana=mana-ManaAtk2;   //restar man·
+					//mana=mana-ManaAtk2;   //restar man√°
 					
 					if(mana < 0)
 					{
 						mana=0;
 					}
 										
-					document.getElementById("manapj").innerHTML="Man·: "+mana;
+					document.getElementById("manapj").innerHTML="Mana: "+mana;
 					document.getElementById("gra3").style.width=porcenBarraMP(manaTotal,restoBarra,"0")+"%";   //modificar barra Mana
 				}
 				if(atk==2) //Ataque 3 BeSouls 
@@ -103,27 +103,27 @@ function ataque(atk)
 					{
 						ataque2PJ=nose(MinAtaque2PJ,MaxAtaque2PJ);
 						contTurAtk2=turReqAtk2; //le asigna la cuenta 
-						cantHPN=cantHPN-ataque2PJ; //variable de daÒo hecho
+						cantHPN=cantHPN-ataque2PJ; //variable de da√±o hecho
 						danoPJ=ataque2PJ;
-						mana=mana-ManaAtk2;   //restar man·
+						mana=mana-ManaAtk2;   //restar man√°
 						restoBarra=ManaAtk2;
 					}
 					if(attack4 == 2) //pregunta si el BeSouls esta en el boton 4
 					{
 						contTurAtk4=turReqAtk4;
 						ataque4PJ=nose(MinAtaque4PJ,MaxAtaque4PJ);
-						cantHPN=cantHPN-ataque4PJ; //variable de daÒo hecho
+						cantHPN=cantHPN-ataque4PJ; //variable de da√±o hecho
 						danoPJ=ataque4PJ;
-						mana=mana-ManaAtk4;   //restar man·
+						mana=mana-ManaAtk4;   //restar man√°
 						restoBarra=ManaAtk4; 
 					}
 					if(attack3 ==2) //pregunta si el BeSouls esta en el boton 3
 					{
 						contTurAtk3=turReqAtk3;
 						ataque3PJ=nose(MinAtaque3PJ,MaxAtaque3PJ);
-						cantHPN=cantHPN-ataque3PJ;             //variable de daÒo hecho
+						cantHPN=cantHPN-ataque3PJ;             //variable de da√±o hecho
 						danoPJ=ataque3PJ;
-						mana=mana-ManaAtk3;   //restar man·
+						mana=mana-ManaAtk3;   //restar man√°
 						restoBarra=ManaAtk3;
 					}
 					
@@ -144,7 +144,7 @@ function ataque(atk)
 					
 					
 					document.getElementById("arribajotatk").style.color="#0c3df0";     //poner el color del mana
-					document.getElementById("arribajotatk").style.visibility="visible";//Mostrar etiqueta poder man·
+					document.getElementById("arribajotatk").style.visibility="visible";//Mostrar etiqueta poder man√°
 					
 					
 					contadorTurnos();  //metodo q resta los turnos 
@@ -156,7 +156,7 @@ function ataque(atk)
 						contTurAtk4=turReqAtk4; //le asigna la cuenta regresiva
 						ataque4PJ=MinatkRegen//nose(MinAtaque4PJ,MaxAtaque4PJ);
 						mana=mana+ataque4PJ; //variable mana
-						document.getElementById("arribajotatk").innerHTML="Man· Plus <br>         +"+ataque4PJ; //Modificar etiqueta poder man·
+						document.getElementById("arribajotatk").innerHTML="Man√° Plus <br>         +"+ataque4PJ; //Modificar etiqueta poder man√°
 						if(mana > manaTotal)
 						{
 							mana=manaTotal;
@@ -170,7 +170,7 @@ function ataque(atk)
 						contTurAtk2=turReqAtk2; //le asigna la cuenta regresiva
 						ataque2PJ=MinatkRegen//nose(MinAtaque2PJ,MaxAtaque2PJ);
 						mana=mana+ataque2PJ; //variable mana
-						document.getElementById("arribajotatk").innerHTML="Man· Plus <br>         +"+ataque2PJ; //Modificar etiqueta poder man·
+						document.getElementById("arribajotatk").innerHTML="Man√° Plus <br>         +"+ataque2PJ; //Modificar etiqueta poder man√°
 						if(mana > manaTotal)
 						{
 							mana=manaTotal;
@@ -184,7 +184,7 @@ function ataque(atk)
 						contTurAtk3=turReqAtk3; //le asigna la cuenta regresiva
 						ataque3PJ=MinatkRegen//nose(MinAtaque3PJ,MaxAtaque3PJ);
 						mana=mana+ataque3PJ; //variable mana
-						document.getElementById("arribajotatk").innerHTML="Man· Plus <br>         +"+ataque3PJ; //Modificar etiqueta poder man·
+						document.getElementById("arribajotatk").innerHTML="Man√° Plus <br>         +"+ataque3PJ; //Modificar etiqueta poder man√°
 						if(mana > manaTotal)
 						{
 							mana=manaTotal;
@@ -209,35 +209,35 @@ function ataque(atk)
 					{
 						contTurAtk4=turReqAtk4; //cuenta regresiva
 						ataque4PJ=MinatkBloodS;  //vida jugador /2
-						cantHPN=cantHPN-ataque4PJ; //variable de daÒo hecho 
+						cantHPN=cantHPN-ataque4PJ; //variable de da√±o hecho 
 						cantHPPj=cantHPPj-ataque4PJ;
 						danoPJ=ataque4PJ;
-						mana=mana-ManaAtk4;   //restar man·
+						mana=mana-ManaAtk4;   //restar man√°
 						restoBarra=ManaAtk4;
-						document.getElementById("arribajotatk").innerHTML="Blood Shot <br>         -"+ataque4PJ; //Modificar etiqueta poder man·
+						document.getElementById("arribajotatk").innerHTML="Blood Shot <br>         -"+ataque4PJ; //Modificar etiqueta poder man√°
 						
 					}
 					if(attack2 == 4) //si blood shot esta en boton  2
 					{
 						contTurAtk2=turReqAtk2; //le asigna la cuenta 
 						ataque2PJ=MinatkBloodS;
-						cantHPN=cantHPN-ataque2PJ; //variable de daÒo hecho
+						cantHPN=cantHPN-ataque2PJ; //variable de da√±o hecho
 						cantHPPj=cantHPPj-ataque2PJ;
 						danoPJ=ataque2PJ;
-						mana=mana-ManaAtk2;   //restar man·
+						mana=mana-ManaAtk2;   //restar man√°
 						restoBarra=ManaAtk2;
-						document.getElementById("arribajotatk").innerHTML="Blood Shot <br>         -"+ataque2PJ; //Modificar etiqueta poder man·
+						document.getElementById("arribajotatk").innerHTML="Blood Shot <br>         -"+ataque2PJ; //Modificar etiqueta poder man√°
 					}
 					if(attack3 ==4) //pregunta si el ataque Blood Shot esta en el boton 3
 					{
 						ataque3PJ=MinatkBloodS;
 						contTurAtk3=turReqAtk3;
-						cantHPN=cantHPN-ataque3PJ;             //variable de daÒo hecho
+						cantHPN=cantHPN-ataque3PJ;             //variable de da√±o hecho
 						cantHPPj=cantHPPj-ataque3PJ;
 						danoPJ=ataque3PJ;
-						mana=mana-ManaAtk3;   //restar man·
+						mana=mana-ManaAtk3;   //restar man√°
 						restoBarra=ManaAtk3;
-						document.getElementById("arribajotatk").innerHTML="Blood Shot <br>         -"+ataque3PJ; //Modificar etiqueta poder man·
+						document.getElementById("arribajotatk").innerHTML="Blood Shot <br>         -"+ataque3PJ; //Modificar etiqueta poder man√°
 					}
 					
 					
@@ -270,7 +270,7 @@ function ataque(atk)
 					{
 						ataque2PJ=MinatkheartL;
 						contTurAtk2=turReqAtk2; //le asigna la cuenta 
-						mana=mana-ManaAtk2;   //restar man·
+						mana=mana-ManaAtk2;   //restar man√°
 						restoBarra=ManaAtk2;
 						
 						
@@ -279,7 +279,7 @@ function ataque(atk)
 					{
 						contTurAtk4=turReqAtk4;
 						ataque4PJ=MinatkheartL;
-						mana=mana-ManaAtk4;   //restar man·
+						mana=mana-ManaAtk4;   //restar man√°
 						restoBarra=ManaAtk4; 
 						
 					}
@@ -287,7 +287,7 @@ function ataque(atk)
 					{
 						contTurAtk3=turReqAtk3;
 						ataque3PJ=MinatkheartL;
-						mana=mana-ManaAtk3;   //restar man·
+						mana=mana-ManaAtk3;   //restar man√°
 						restoBarra=ManaAtk3;
 						
 					}
@@ -313,21 +313,21 @@ function ataque(atk)
 					if(attack2 == 6) //pregunta si el MagShield esta en el boton 2
 					{
 						contTurAtk2=turReqAtk2; //le asigna la cuenta 
-						mana=mana-ManaAtk2;   //restar man·
+						mana=mana-ManaAtk2;   //restar man√°
 						restoBarra=ManaAtk2;
 						
 					}
 					if(attack4 == 6) //pregunta si el MagShield esta en el boton 4
 					{
 						contTurAtk4=turReqAtk4;
-						mana=mana-ManaAtk4;   //restar man·
+						mana=mana-ManaAtk4;   //restar man√°
 						restoBarra=ManaAtk4; 
 						
 					}
 					if(attack3 ==6) //pregunta si el Heart Ligth esta en el boton 3
 					{
 						contTurAtk3=turReqAtk3;
-						mana=mana-ManaAtk3;   //restar man·
+						mana=mana-ManaAtk3;   //restar man√°
 						restoBarra=ManaAtk3;
 						
 					}
@@ -339,7 +339,7 @@ function ataque(atk)
 						mana=0;
 					}
 										
-					document.getElementById("manapj").innerHTML="Man·: "+mana;
+					document.getElementById("manapj").innerHTML="Mana: "+mana;
 					document.getElementById("gra3").style.width=porcenBarraMP(manaTotal,restoBarra,"0")+"%";   //modificar barra Mana
 				}
 				if(boolAtk5==true)    //para el ataque de dormir
@@ -352,7 +352,7 @@ function ataque(atk)
 							
 							c++;
 						}
-				if(atk != 3 && atk !=5 && atk!=6) //para q no haga animacion de daÒo si no es un poder de ataque            ///////////////////////////////////////////////////NO PODER DE ATAQUE
+				if(atk != 3 && atk !=5 && atk!=6) //para q no haga animacion de da√±o si no es un poder de ataque            ///////////////////////////////////////////////////NO PODER DE ATAQUE
 				{
 				
 				var timout3=setTimeout(function(){
@@ -360,7 +360,7 @@ function ataque(atk)
 					
 				leonm.style.marginLeft=xleonm+"%";    //mover imagen
 				
-				document.getElementById("arribaNPC").innerHTML="-"+danoPJ;  //Modificar etiqueta de daÒo
+				document.getElementById("arribaNPC").innerHTML="-"+danoPJ;  //Modificar etiqueta de da√±o
 				document.getElementById("arribaNPC").style.visibility="visible"; //Mostrar el h1 en la cabeza de Leonmon
 				
 				},100,"JavaScript") 
@@ -389,13 +389,13 @@ function ataque(atk)
 				document.getElementById("imgAtk1b").style.visibility="hidden"; //Ocultar efecto ataque 3 B BeSouls
 				document.getElementById("imgAttack").style.visibility="hidden"; //Ocultar efecto Attack
 				document.getElementById("imgAttack2").style.visibility="hidden"; //Ocultar efecto ataque 2 Placaje
-				document.getElementById("imgAttack3").style.visibility="hidden"; //Ocultar efecto regen man·
+				document.getElementById("imgAttack3").style.visibility="hidden"; //Ocultar efecto regen man√°
 				document.getElementById("imgAttack4a").style.visibility="hidden"; //Ocultar efecto Blood Shot A
 				document.getElementById("imgAttack4B").style.visibility="hidden"; //Ocultar efecto Blood Shot B
 				document.getElementById("imgAttack5").style.visibility="hidden";  //ocultar efecto Healt Ligth
 				document.getElementById("imgAttack6A").style.visibility="hidden"; //ocultar efecto MagShield
 				
-				if(atk != 3 && atk != 5 && atk!=6) //para q no haga animacion de daÒo si no es un poder de ataque                      ///////////////////////////////////////////NO PODER DE ATAQUE
+				if(atk != 3 && atk != 5 && atk!=6) //para q no haga animacion de da√±o si no es un poder de ataque                      ///////////////////////////////////////////NO PODER DE ATAQUE
 				{
 					document.getElementById("arribaNPC").style.visibility="hidden"; //Ocultar el h1 en la cabeza de LeonMon
 				}
@@ -403,7 +403,7 @@ function ataque(atk)
 					{
 						if(atk ==5)
 						{
-							document.getElementById("arribaNPC").innerHTML=ataque2PJ+" Turnos";  //Modificar etiqueta de daÒo
+							document.getElementById("arribaNPC").innerHTML=ataque2PJ+" Turnos";  //Modificar etiqueta de da√±o
 							document.getElementById("arribaNPC").style.visibility="hidden"; //Mostrar el h1 en la cabeza de Leonmon
 						}
 					}
@@ -497,7 +497,7 @@ function ataque(atk)
 					document.getElementById("arribajota").style.color="#0c3df0";
 					document.getElementById("imgAttack6").style.visibility="visible"; //Mostrar escudo de mana
 				}
-				document.getElementById("arribajota").innerHTML="-"+danoNPC;  //Modificar etiqueta de daÒo
+				document.getElementById("arribajota").innerHTML="-"+danoNPC;  //Modificar etiqueta de da√±o
 				document.getElementById("arribajota").style.visibility="visible"; //Mostrar el h1 en la cabeza de Jotaro
 				document.getElementById("arribaLeonAtk").style.visibility="visible"; //Mostrar etiqueta de ataque
 				
@@ -530,7 +530,7 @@ function ataque(atk)
 					if(boolAtk5 ==true)
 					{
 					var timout5=setTimeout(function(){
-					document.getElementById("arribaLeonAtk").innerHTML="ZZzzZ";  //Modificar etiqueta de daÒo
+					document.getElementById("arribaLeonAtk").innerHTML="ZZzzZ";  //Modificar etiqueta de da√±o
 					document.getElementById("arribaLeonAtk").style.color="#057d1d";  
 					document.getElementById("arribaLeonAtk").style.visibility="visible"; //Mostrar etiqueta de ataque
 					},2000,"JavaScript")
@@ -576,7 +576,7 @@ function ataque(atk)
 						document.getElementById("bntAtaque").disabled=false;
 						document.getElementById("Spritebtn").style.opacity = "1";   //modificar opacidad para q se puede usar ATK1
 						//alert("cantidad mana "+mana);alert("cantidad hp "+cantHPPj);
-						if(mana >= ManaAtk2 && contTurAtk2==0 ) //abilitar boton atk2 por MAN¡ y Turnos
+						if(mana >= ManaAtk2 && contTurAtk2==0 ) //abilitar boton atk2 por MAN√Å y Turnos
 						{
 							document.getElementById("bntAtk2").disabled=false; 
 							document.getElementById("Spritebtn2").style.zIndex = "2";
@@ -615,7 +615,7 @@ function ataque(atk)
 								//document.getElementById("bntAtk4").style.color = "transparent"; //poner letra transparente para q no se bugee
 								document.getElementById("numero3").innerHTML="";
 							}
-						if(mana >= ManaAtk3 && contTurAtk3==0 ) //abilitar boton atk3 por MAN¡ y Turnos
+						if(mana >= ManaAtk3 && contTurAtk3==0 ) //abilitar boton atk3 por MAN√Å y Turnos
 						{
 						document.getElementById("bntAtk3").disabled=false;
 						document.getElementById("Spritebtn3").style.zIndex = "2";
@@ -623,7 +623,7 @@ function ataque(atk)
 						
 						
 						}
-						if(mana >= ManaAtk4 && contTurAtk4==0 ) //abilitar boton regen Man· por Turnos
+						if(mana >= ManaAtk4 && contTurAtk4==0 ) //abilitar boton regen Man√° por Turnos
 						{
 						document.getElementById("bntAtk4").disabled=false; 
 						document.getElementById("Spritebtn4").style.zIndex = "2";
